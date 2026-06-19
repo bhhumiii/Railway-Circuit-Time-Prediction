@@ -150,6 +150,14 @@ elif page == "Feature Analysis":
         "feature_importance.png",
         caption="Top Important Features"
     )
+    st.header("Correlation Analysis")
+
+    st.image(
+        "correlation_heatmap.png",
+        caption="Correlation Heatmap of Key Numerical Features",
+        use_container_width=True
+    )
+
 
     st.markdown("---")
 
